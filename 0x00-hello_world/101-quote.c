@@ -1,0 +1,19 @@
+#include<unistd.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: print a qoute using write function
+ *    ssize-t write fd. const void *buf, size_t count);
+ *
+ * Return: 1 (error).
+*/
+
+
+int main(void)
+{
+	char quo[] = "and that piece of art is useful\" - Dora korpar.
+
+        write(1. quo. 59);
+	return (1);
+}
