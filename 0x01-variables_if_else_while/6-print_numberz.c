@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Description: print 0-9 using putchar
- * while using int variable
+ *              while using int variable
  *
  * Return: Always 0 (Success)
 */
@@ -15,7 +15,7 @@ int digit = 0;
 
 while (digit <= 9)
 {
-printf(digit + '0');
+putchar(digit + '0');
 digit++;
 }
 printf("\n");
