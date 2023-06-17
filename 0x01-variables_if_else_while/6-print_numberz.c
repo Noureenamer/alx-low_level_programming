@@ -18,7 +18,7 @@ while (digit <= 9)
 putchar(digit + '0');
 digit++;
 }
-putchar("\n");
+putcha('\n');
 
 return (0);
 }
