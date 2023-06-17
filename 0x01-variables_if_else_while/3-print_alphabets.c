@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -12,19 +10,19 @@
 
 int main(void)
 {
-char ch = 'a';
-char ch = 'A';
+char ch = 'a', CH = 'A';
 
 /*prints a -z*/
 while (ch <= 'z')
 {
 putchar(ch);
-ch++; }
+ch++; 
+}
 /*prints A - Z*/
 while (ch <= 'Z')
 {
-putchar(ch);
-ch++;
+putchar(CH);
+CH++;
 }
 putchar('\n');
 return (0);
