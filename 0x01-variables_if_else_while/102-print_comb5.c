@@ -22,7 +22,7 @@ putchar((firstdigit % 10) + 48);
 putchar(' ');
 putchar((secondDigit / 10) + 48);
 putchar((secondDigit % 10) + 48);
-if (firstdigit != 99 || secondDigit != 99)
+if (firstdigit != 98 || secondDigit != 99)
 {
 	putchar(',');
 	putchar(' ');
