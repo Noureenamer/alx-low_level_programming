@@ -16,6 +16,7 @@ while (digit1 <= 9)
 {
 digit2 = 0;
 while (digit2 <= 9)
+{
 digit3 = 0;
 while (digit3 <= 9)
 {
