@@ -23,7 +23,7 @@ for (count = 0; count < 50; count++)
 	if (count == 49)
 		printf("\n");
 	else
-		printf(",");
+		printf(", ");
 }
 return (0);
 }
