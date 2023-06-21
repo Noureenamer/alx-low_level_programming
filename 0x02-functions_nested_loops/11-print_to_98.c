@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_to_98 - Function to return 1 or -1 if printing a character.
+ * print_to_98 - print n to 98 counts 
  *
- * @n: charachter to return.
- *
- * Return: Always 0 (Success)
+ * @n: input
 */
 
 void print_to_98(int n)
@@ -14,7 +12,7 @@ int count;
 
 if (n > 98)
 	for (count = n; count > 98; count--)
-		printf("%d, ", count)
+		printf("%d, ", count);
 else
 	for (count = n; count < 98; count++)
 		printf("%d, ", count);
