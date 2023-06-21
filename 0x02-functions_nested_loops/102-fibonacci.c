@@ -3,21 +3,27 @@
 /**
  * main -entry point
  *
- * Description: compute the sum of all
- *        the multiples of 3 or 5
- *        below 1024 (excluded)
+ * Description: print the first 50 fibonacci
  *
  *        Return: Always 0 (success)
 */
 
 int main(void)
 {
-int sum, num;
-for (num = 0; num < 1024; num++)
+int count;
+unsigned long fib1 = 0, fib2 = 1, sum;
+
+for (count = 0; count < 50; count++)
 {
-	if ((num % 3 == 0 || (num % 5 == 0))
-			sum += num;
+	sum = fib + fib2;
+	printf("%lu", sum);
+	fib1 = fib2;
+	fib2 = sum;
+
+	if (count == 49)
+		printf("\n");
+	else
+		printf(","
 }
-printf("%d\n", sum);
 return (0);
 }
